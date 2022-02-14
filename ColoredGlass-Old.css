@@ -1,0 +1,126 @@
+/*root*/
+:root {
+  --main-color-1: rgba(255,192,203,.5);
+  --main-color-2: rgba(255,192,203,.0);
+  }
+  
+  
+  /*変更部分*/
+  
+  /*メニュー*/
+  #menuItemContainer {
+      background: var(--main-color-1);
+  }
+  
+  /*ボタン*/
+  .button {
+      background: var(--main-color-1);
+      border: none !important;
+  }
+  .button:hover {
+      border: none !important;/*カーソル選択時に出るボーダーの非表示*/
+  }
+  
+  /*ヘッダー*/
+  .headerBar {
+      background-color: var(--main-color-1);
+  }
+  
+  /*チャット入力*/
+  #chatInputHolder {
+      background-color: var(--main-color-1);
+  }
+  
+  /*チャット出力*/
+  #chatList {
+      background-color: var(--main-color-1);
+  }
+  
+  /*VC表示*/
+  #voiceDisplay {
+      background-color: var(--main-color-1);
+  }
+  
+  /*レベル*/
+  #mLevelCont {
+      background-color: var(--main-color-2);/*色の濃度が異なる*/
+  }
+  
+  /*サブロゴボタン*/
+  #subLogoButtons {
+      position: absolute;
+      bottom: 16px;
+  }
+
+  /*Host Gameボタン等*/  
+  .button.small{
+      height: 80px;
+      line-height: 80px;
+      padding-top: 0px!important;
+      padding-bottom: 0px!important;
+      padding-left: 30px!important;
+      padding-right: 30px!important;
+      font-size: 22.5px!important;
+      margin-left: 3px;
+      margin-right: 3px;
+  }
+
+  /*試合情報表示変更*/
+  #mapInfo {
+      color: #fff;
+      font-size: 30px;
+      margin-bottom: 10px
+  }
+  
+  
+  /*非表示部分(使わないコンテンツ)*/
+  
+  /*ニュース表示枠非表示*/
+  #newsHolder {
+      display: none !important;
+  }
+  
+  /*ニュース非表示*/
+  #newsBody {
+      display: none !important;
+  }
+  
+  /*配信情報非表示*/
+  #streamContainer {
+      display: none !important;
+  }
+  
+  /*お知らせ非表示*/
+  .youNewDiv {
+      display: none !important;
+  }
+  
+  /*広告の非表示*/
+  #aHolder, .endAHolder {
+      display: none !important;
+  }
+  
+  /*ロゴ非表示*/
+  #mainLogo {
+      display: none !important;
+  }
+  
+  /*バージョン非表示*/
+  #seasonLabel {
+      display: none !important;
+  }
+  
+  /*Ranked soon!メッセージ非表示*/
+  #rankedSoonTm {
+      display: none!important;
+  }
+  
+  #voiceDisplay{
+      display:none!important;
+  }
+  
+  /*右下表示削除*/
+  #termsInfo {
+      display: none!important;
+  }
+  /*This css was made by FoxNoi99.*/
